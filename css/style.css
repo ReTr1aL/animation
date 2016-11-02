@@ -1,0 +1,904 @@
+div.all {
+	width: 80%;
+	height: 3000px;
+	background: #FFE4B5;
+	margin: auto;
+}
+
+div.back {
+	width: 100%;
+	height: 500px;
+	position: relative;
+	background: black;
+	top: 50px;
+	overflow: hidden;
+}
+
+@keyframes left-to-right0 {
+	from {
+		left: -70px;
+	}
+	to {
+		left: -50px;
+	}
+}
+
+@keyframes left-to-right1 {
+	from {
+		left: 0px;
+	}
+	to {
+		left: -20px;
+	}
+}
+
+@keyframes left-to-right2 {
+	from {
+		left: 90px;
+	}
+	to {
+		left: 50px;
+	}
+}
+
+@keyframes left-to-right3 {
+	from {
+		left: 170px;
+	}
+	to {
+		left: 150px;
+	}
+}
+
+@keyframes left-to-right4 {
+	from {
+		left: 280px;
+	}
+	to {
+		left: 250px;
+	}
+}
+
+@keyframes left-to-right5 {
+	from {
+		left: 370px;
+	}
+	to {
+		left: 350px;
+	}
+}
+
+@keyframes left-to-right6 {
+	from {
+		left: 470px;
+	}
+	to {
+		left: 440px;
+	}
+}
+
+@keyframes left-to-right7 {
+	from {
+		left: 560px;
+	}
+	to {
+		left: 540px;
+	}
+}
+
+@keyframes left-to-right8 {
+	from {
+		left: 660px;
+	}
+	to {
+		left: 640px;
+	}
+}
+
+@keyframes left-to-right9 {
+	from {
+		left: 760px;
+	}
+	to {
+		left: 740px;
+	}
+}
+
+@keyframes left-to-right10 {
+	from {
+		left: 860px;
+	}
+	to {
+		left: 840px;
+	}
+}
+
+@keyframes left-to-right11 {
+	from {
+		left: 960px;
+	}
+	to {
+		left: 940px;
+	}
+}
+
+@keyframes left-to-right12 {
+	from {
+		left: 1000px;
+	}
+	to {
+		left: 1020px;
+	}
+}
+
+@keyframes right-to-left1 {
+	0% {
+		left: 1100px;
+	}
+	50% {
+		left: 730px;
+	}
+	100% {
+		left: 730px;
+	}
+}
+
+@keyframes sink1 {
+	0% {
+		top: 410px;
+	}
+	50% {
+		top: 410px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink2 {
+	0% {
+		top: 375px;
+	}
+	50% {
+		top: 375px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink3 {
+	0% {
+		top: 355px;
+	}
+	50% {
+		top: 355px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink4 {
+	0% {
+		top: 410px;
+	}
+	50% {
+		top: 410px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink5 {
+	0% {
+		top: 375px;
+	}
+	50% {
+		top: 375px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink6 {
+	0% {
+		top: 355px;
+	}
+	50% {
+		top: 355px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink7 {
+	0% {
+		top: 300px;
+	}
+	50% {
+		top: 300px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink12 {
+	0% {
+		top: 155px;
+	}
+	50% {
+		top: 155px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink13 {
+	0% {
+		top: 190px;
+	}
+	50% {
+		top: 190px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink8 {
+	0% {
+		top: 410px;
+	}
+	50% {
+		top: 410px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink9 {
+	0% {
+		top: 375px;
+	}
+	50% {
+		top: 375px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink10 {
+	0% {
+		top: 355px;
+	}
+	50% {
+		top: 355px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 610px;
+	}
+}
+
+@keyframes sink11 {
+	0% {
+		top: 298px;
+	}
+	50% {
+		top: 298px;
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(90deg);
+		top: 610px;
+	}
+}
+
+div.circle0 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: -70px;
+	background: radial-gradient(#000080 -20%, #6495ED);	
+	z-index: 9;
+	animation-name: left-to-right0;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.circle1 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: -20px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 10;
+	animation-name: left-to-right1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.circle2 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 80px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 9;
+	animation-name: left-to-right2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate-reverse;
+}
+
+div.circle3 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 180px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 10;
+	animation-name: left-to-right3;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.circle4 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 280px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 9;
+	animation-name: left-to-right4;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate-reverse;
+}
+
+div.circle5 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 380px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 10;
+	animation-name: left-to-right5;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.circle6 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 480px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 9;
+	animation-name: left-to-right6;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate-reverse;
+}
+
+div.circle7 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 580px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 10;
+	animation-name: left-to-right7;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.circle8 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 680px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 9;
+	animation-name: left-to-right8;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate-reverse;
+}
+
+div.circle9 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 780px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 10;
+	animation-name: left-to-right9;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.circle10 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 880px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 9;
+	animation-name: left-to-right10;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate-reverse;
+}
+
+div.circle11 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 980px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	z-index: 10;
+	animation-name: left-to-right11;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.circle12 {
+	width: 150px;
+	height: 150px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	top: 435px;
+	left: 1000px;
+	background: radial-gradient(#000080 -20%, #6495ED);
+	animation-name: left-to-right12;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 1s;
+	animation-direction: alternate;
+}
+
+div.geom1 {
+	position: absolute;
+	width: 300px;
+	height: 78px;
+	background: #8B4726;
+	top: 410px;
+	left: 150px;
+	border-top:  5px ridge #8B2500;
+	border-bottom:  5px ridge #8B2500;
+	border-left:  5px ridge #8B2500;
+	animation-name: sink1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom1:before {
+	content: "";
+	position: absolute;
+	border-top: 39px solid transparent;
+	border-right: 39px solid black;
+	border-bottom: 39px solid transparent;
+	left: 261px;
+}
+
+div.geom2 {
+	position: absolute;
+	width: 300px;
+	height: 30px;
+	background: #8B4726;
+	top: 375px;
+	left: 150px;
+	border-top:  5px ridge #8B2500;
+	border-left:  5px ridge #8B2500;
+	animation-name: sink2;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom2:before {
+	content: "";
+	position: absolute;
+	border-top: 9px solid transparent;
+	border-right: 39px solid black;
+	border-bottom: 39px solid transparent;
+	left: 261px;
+}
+
+div.geom3 {
+	position: absolute;
+	width: 300px;
+	height: 15px;
+	background: #8B4726;
+	top: 355px;
+	left: 150px;
+	border-top:  5px ridge #8B2500;
+	border-left:  5px ridge #8B2500;
+	animation-name: sink3;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom3:before {
+	content: "";
+	position: absolute;
+	border-top: 11px solid transparent;
+	border-right: 39px solid black;
+	border-bottom: 3px solid transparent;
+	left: 261px;
+}
+
+div.geom4 {
+	position: absolute;
+	width: 100px;
+	height: 78px;
+	background: #8B4726;
+	top: 410px;
+	left: 45px;
+	border-top:  5px ridge #8B2500;
+	border-bottom:  5px ridge #8B2500;
+	border-left:  5px ridge #8B2500;
+	animation-name: sink4;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom5 {
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	background: #8B4726;
+	top: 375px;
+	left: 45px;
+	border-top:  5px ridge #8B2500;
+	border-bottom:  5px ridge #8B2500;
+	border-left:  5px ridge #8B2500;
+	animation-name: sink5;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom6 {
+	position: absolute;
+	width: 100px;
+	height: 15px;
+	background: #8B4726;
+	top: 355px;
+	left: 45px;
+	border-top:  5px ridge #8B2500;
+	border-bottom:  5px ridge #8B2500;
+	border-left:  5px ridge #8B2500;
+	animation-name: sink6;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom7 {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	background: #8B4726;
+	top: 300px;
+	left: 45px;
+	border-top:  5px ridge #8B2500;
+	border-left:  5px ridge #8B2500;
+	border-right: 5px ridge #8B2500;
+	animation-name: sink7;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+
+div.geom8 {
+	position: absolute;
+	width: 150px;
+	height: 78px;
+	background: #8B4726;
+	top: 410px;
+	left: 438px;
+	border-top:  5px ridge #8B2500;
+	border-bottom:  5px ridge #8B2500;
+	border-right:  5px ridge #8B2500;
+	animation-name: sink8;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom8:before {
+	content: "";
+	position: absolute;
+	border-top: 39px solid transparent;
+	border-right: 39px solid #8B4726;
+	border-bottom: 39px solid transparent;
+	left: -39px;
+}
+
+div.geom9 {
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	background: #8B4726;
+	top: 375px;
+	left: 438px;
+	border-top:  5px ridge #8B2500;
+	border-right: 5px ridge #8B2500;
+	animation-name: sink9;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom9:before {
+	content: "";
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-right: 39px solid #8B4726;
+	border-bottom: 21px solid transparent;
+	left: -39px;
+}
+
+div.geom10 {
+	position: absolute;
+	width: 150px;
+	height: 15px;
+	background: #8B4726;
+	top: 355px;
+	left: 438px;
+	border-top:  5px ridge #8B2500;
+	border-right:  5px ridge #8B2500;
+	animation-name: sink10;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom10:before {
+	content: "";
+	position: absolute;
+	border-top: 11px solid transparent;
+	border-right: 39px solid #8B4726;
+	border-bottom: 3px solid transparent;
+	left: -39px;
+}
+
+div.geom11 {
+	position: absolute;
+	border-left: 100px ridge #8B2500;
+	border-top: 100px ridge transparent;
+	border-bottom: 100px ridge transparent;
+	left: 593px;
+	top: 298px;
+	animation-name: sink11;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom12 {
+	position: absolute;
+	width: 10px;
+	height: 200px;
+	background: #668B8B;
+	top: 155px;
+	left: 300px;
+	animation-name: sink12;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom13 {
+	position: absolute;
+	width: 40px;
+	height: 15px;
+	background: blue;
+	top: 155px;
+	left: 310px;
+	animation-name: sink12;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom13:before {
+	content: "";
+	position: absolute;
+	border-right: 15px solid black;
+	border-top: 8px solid transparent;
+	border-bottom: 7px solid transparent;
+	left: 26px;
+}
+
+div.geom14 {
+	position: absolute;
+	width: 225px;
+	height: 125px;
+	background: radial-gradient(closest-corner at -150%, transparent 99%, #6495ED, #6495ED);
+	border-radius: 50%;
+	top: 190px;
+	left: 250px;
+	animation-name: sink13;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom15 {
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	background: radial-gradient(#191970, #6495ED);
+	transform: rotate(50deg);
+	top: 300px;
+	left: 1100px;
+	z-index: 8;
+	animation-name: right-to-left1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+}
+
+div.geom16 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: radial-gradient(#191970, #6495ED);
+	transform: rotate(30deg);
+	top: 340px;
+	left: 1100px;
+	animation-name: right-to-left1;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-duration: 14s;
+	animation-direction: normal;
+	z-index: 7;
+}
+
+div.geom17 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: radial-gradient(#BEBEBE, white);
+	position: absolute;
+	left: 800px;
+	top: 2px;
+}
